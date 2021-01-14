@@ -25,7 +25,9 @@
              $req = $bdd->prepare('INSERT INTO content(titre, contenu, date_creation)VALUES(?,?,?)');
              $req->execute(array(htmlentities($_POST['titre']), $_POST['contenu'], $date_public));
 
-             echo "<p class=\"success\">Merci votre contenu est ajouté</p>";
+             echo "<p class=\"success\">Merci votre contenu est ajouté :
+                    <a href=\"publication.php\">Voir les publications récentes</a>
+                    </p>";
 
          
          }

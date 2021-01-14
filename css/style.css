@@ -5,7 +5,7 @@ html{
 }
 
 body{
-			font: 1.6rem 'Open Sans', sans-serif;
+		font: 1.6rem 'Open Sans', sans-serif;
 		}
 		h1,h2,h3{
 			font-weight: 300;
@@ -19,25 +19,40 @@ body{
 			padding: 0.5rem;
 			line-height: 3.0rem;
 			color: #fafafa;
+			text-shadow: .1rem .1rem 0 #222;
 		}
 		p{
-			max-width: 40rem;
-			margin:0 auto;
+			
 			padding:15px;
-			color:#fff;
-			background: #ecf0f1;
+			color:#222;
+			background: #f0e1f7;
 			line-height: 2.5rem;
+			margin:0;
 			
 		}
+		
 		article{
 			margin-bottom: 1.0rem;
+			max-width: 80rem;
+			margin: 0 auto;
+		}
+		article time{
+			display: block;
+			padding: .5rem;
+			background-color: rgb(234, 182, 247);
 		}
 		*{
 			box-sizing: border-box;
 		}
-		.warning{
+		p a{
+			color: #222;
+			text-decoration: none;
+		}
+		.warning,.success{
 			text-align: center;
 			color:#222;
+			max-width: 50rem;
+			margin: 0 auto;
 			
 		}
 		a{

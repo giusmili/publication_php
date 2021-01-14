@@ -29,6 +29,7 @@
             <!-- <a href="https://www.google.com/search?query=html+js+css">Cliquer</a> -->
          </div>
          <?php include_once('./src/traitement.inc.php')?>
+       
     </main>
     <?php
         include_once('./src/footer.inc.php')
